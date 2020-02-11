@@ -1,0 +1,27 @@
+{
+  "name": "recipemanagerapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "gulp": "node ./node_modules/gulp/bin/gulp.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luko3/RecipeManagerApp.git"
+  },
+  "author": "luko3",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luko3/RecipeManagerApp/issues"
+  },
+  "homepage": "https://github.com/luko3/RecipeManagerApp#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4"
+  }
+}
