@@ -1,0 +1,68 @@
+$orange-color: #E58A20;
+
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+    background-color: #ebebeb;
+}
+.main-width {
+    width: 80%;
+    display: flex;
+}
+header {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    background-color: #4a4a49;
+    .menu {
+        justify-content: space-between;
+        &__logo {
+            width: 45%;
+            h1 {
+                font-size: 40px;
+                font-weight: lighter;
+                line-height: 100px;
+                font-family: Charmonman, sans-serif;
+                color: white;
+            }
+            &--span {
+                color: $orange-color;
+            }
+        }
+    }
+    nav {
+        width: 55%;
+        .nav__container {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            .nav__list {
+                display: flex;
+                align-items: center;
+                list-style: none;
+                li {
+                    margin: 10px;
+                    color: white;
+                    font-size: 15px;
+                    a {
+                        text-decoration: none;
+                        &:link, &:visited {
+                            color: white;
+                        }
+                    }
+                }
+                &:first-child {
+                    a {
+                        &:link, &:visited {
+                            color: $orange-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
